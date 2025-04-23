@@ -89,35 +89,6 @@ python app.py
 2. Set the `JULEP_API_KEY` environment variable in Railway
 3. Deploy using the Dockerfile configuration
 
-## Usage Examples
+## Sample Image
 
-```python
-import requests
-import json
-
-url = "https://julepresearchapi-production.up.railway.app/research"
-
-payload = json.dumps({
-  "topic": "Machine Learning Applications in Healthcare",
-  "format": "summary"
-})
-
-headers = {
-  'Content-Type': 'application/json'
-}
-
-response = requests.post(url, headers=headers, data=payload)
-print(response.text)
-```
-
-## License
-
-[MIT](LICENSE)
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+![image](https://github.com/user-attachments/assets/b630b947-77b2-4236-a187-99a7968f2eca)
